@@ -1,0 +1,93 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+
+/* إزالة الأسهم في الحقول من نوع number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+
+
+
+
+.data .age-text{
+    background-color: #3A59D1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.age-detils{
+    background-color: #3A59D1;
+    color: white;
+    border-radius: 5px;
+
+}
+
+
+
+.content{
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px 10px 50px 50px;
+}
+.form-custom{
+    outline: none;
+    border: 2px solid #3A59D1;
+    border-radius: 5px;
+}
+.main{
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+
+.text-day{color: #3A59D1;}
+
+
+.togle-lun{
+    border: rgb(131, 131, 131) 2px solid;
+    background-color: transparent;
+    border-radius:30px 0 0 0  ;
+    animation: toggle infinite 2s;
+}
+@keyframes toggle {
+    0%{transform: rotateZ(0);}
+    50%{transform: rotateZ(5deg);}
+    100%{transform: rotateZ(0);}
+    
+}
+
+
+
+
+
+
+
+
+.btn-custom {
+    background-color: #3D90D7;
+    color: white;
+    border: transparent solid 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.5s;
+
+}
+.btn-custom:hover{
+    background-color: transparent;
+    border: solid 2px #3D90D7 ;
+        border-radius: 8px;
+    color: #3D90D7;
+}
+
